@@ -10,7 +10,7 @@ html{
 }
 
 *{
-    font-size: 20px;
+    font-size: 1.25rem;
 
     font-weight: 600;
     list-style: none;
@@ -22,38 +22,27 @@ html{
 h3{margin: 0;}
 
 body .title{
-    /*border-bottom: lightslategrey 2px solid;*/
-    border-bottom: rgba(0,0,0,0.3) 2px solid;
-    /*background-color: darkseagreen;*/
+    border-bottom: rgba(0,0,0,0.3) 0.125rem solid;
     background-color: lightskyblue;
     color: white;
-    /*color: yellow;*/
     margin: 1rem 0;
     padding: 0 1rem;
     border-radius: 0.25rem;
     display: inline-block;
-    text-shadow:steelblue   0 0 2px  ;
+    text-shadow:steelblue   0 0 0.125rem  ;
 
 }
 
 body{
     max-width: 50rem;
-    /*width: 100%;*/
     overflow: hidden auto;
     padding: 2rem;
     margin: 2rem 0;
-    /*background-color: rgba(136,187,255,0.82);*/
     background-color: white;
 
 
 }
 
-body>main{
-
-    /*box-shadow: 5px 0 10px 10px rgba(0,0,0,0.3);*/
-    /*background-color: white;*/
-
-}
 
 body>main>div:not(.button-container){
     margin: 0.25rem;
@@ -71,15 +60,12 @@ body>main>.button-container{
     background-color: cornflowerblue;
     padding: 0.5rem;
     color: white;
-    /*text-shadow: 0px 0px 5px black;*/
-/*box-shadow: 0 0 1px 2px  cornflowerblue;*/
-    border-bottom:rgba(0,0,0,0.3)  3px solid;
-    /*text-shadow:grey   0 0 2px  ;*/
+
+    border-bottom:rgba(0,0,0,0.3)  0.1875rem solid;
 
 
 }
 body>main>.button-container>.hello-world{
-    /*font-size: 0.8rem;*/
     font-size:2rem;
 }
 
@@ -126,7 +112,6 @@ body>.main>.about-me-container>.content>img{
     border-radius: 0.3rem;
     filter: opacity(95%);
     margin-right: 1rem;
-    /*box-shadow: 0 0 5px 5px rgba(0,0,0,0.4);*/
 }
 /*연락처*/
 body>.main>.contact-container>div>a{
@@ -207,6 +192,7 @@ body>.main>.project-container a:hover + div>a:last-of-type{
 body>.main>.project-container a:active + div>a:last-of-type{
     background-color: cornflowerblue;
 
+
 }
 
 body>.main>.project-container>div{
@@ -241,7 +227,7 @@ body>.main>.project-container>div{
 
 
 body>.main>.project-container>div>.content{
-    box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 0 0.0625rem  0.0625rem rgba(0,0,0,0.1);
     border-radius: 0.2rem;
 }
 
