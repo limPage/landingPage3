@@ -136,7 +136,7 @@ body>.main>.about-me-container>img{
 }
 body>.main>.about-me-container>.content>.contact-container>.name{
     color: royalblue;
-    text-shadow:lightskyblue   0.125rem 0.125rem 0.125rem  ;
+    /*text-shadow:lightskyblue   0.125rem 0.125rem 0.125rem  ;*/
     margin: 1rem 0 0 0;
     font-size: 1rem;
     font-weight: 600;
@@ -146,7 +146,7 @@ body>.main>.about-me-container>.content>.contact-container>.name>i{
     color: lightskyblue;
     text-shadow: none;
     font-weight: unset;
-    box-shadow: steelblue 0 0.0625rem 0.125rem 0.125rem;
+    box-shadow: steelblue 0 0.0625rem 0.125rem 0.0625rem;
     border-radius: 9rem;
 }
 
@@ -189,7 +189,6 @@ body>.main>.skill-container>.content>.my-skill>.my-skill-li>div>.toggle{
     top:20%;
     position: absolute;
     margin: unset;
-    /*color:  red;*/
     font-size: 0.5rem;
     font-weight:1000;
 
