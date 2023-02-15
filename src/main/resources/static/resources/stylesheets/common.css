@@ -101,12 +101,31 @@ p,span{
 }
 
 /*자기소개*/
-body>main>.about-me-container>.content{
+body>main>.about-me-container{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
+
 }
-body>.main>.about-me-container>.content>img{
+
+
+
+body>main>.about-me-container>.title-container{
+    display: inline-block;
+    position: center;
+
+}
+body>main>.about-me-container>.contact-container{
+    display: inline-block;
+    padding: unset;
+    position: relative;
+    top: 0;
+}
+
+
+body>.main>.about-me-container>img{
+    display: inline-block;
     height: 10rem;
     width: 8.5rem;
     border-radius: 0.3rem;
@@ -115,13 +134,44 @@ body>.main>.about-me-container>.content>img{
     border:0.2rem white solid;
     box-shadow: 0.0625rem  0.0625rem 0.0625rem 0.0625rem grey ;
 }
+body>.main>.about-me-container>.content>.contact-container>.name{
+    color: royalblue;
+    text-shadow:lightskyblue   0.125rem 0.125rem 0.125rem  ;
+    margin: 1rem 0 0 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+body>.main>.about-me-container>.content>.contact-container>.name>i{
+    font-size: 0.8rem;
+    color: lightskyblue;
+    text-shadow: none;
+    font-weight: unset;
+    box-shadow: steelblue 0 0.0625rem 0.125rem 0.125rem;
+    border-radius: 9rem;
+}
+
+
+body>.main>.about-me-container>.content>.contact-container>p{
+    margin: 0.5rem 0  0 0;
+
+}
+body>.main>.about-me-container>.content>.contact-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
 /*연락처*/
-body>.main>.contact-container>div>a{
+.git{
     font-size: 0.8rem;
     font-weight: 600;
-    margin: 0.5rem 0;
+    margin-top: 0.5rem;
     color: black;
+
+
 }
+
+
 /*스킬*/
 body>.main>.skill-container>.content>.my-skill>.my-skill-li{
     padding: 0.5rem ;
